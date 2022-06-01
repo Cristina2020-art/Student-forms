@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./js/index.js"></script>
+    <!-- <script defer src="./js/vishal.js"></script> -->
+    <!-- Primary Meta Tags -->
+    <title>StudentsForm</title>
+    <meta name="title" content="StudentsForm" />
+    <meta
+      name="description"
+      content="In this form you can store data of any studenr and which edit and delete.. of your data...!"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="StudentsForm" />
+    <meta
+      property="og:description"
+      content="In this form you can store data of any studenr and which edit and delete.. of your data...!"
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="StudentsForm" />
+    <meta
+      property="twitter:description"
+      content="In this form you can store data of any studenr and which edit and delete.. of your data...!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+    <title>Student-creator-form..!</title>
+  </head>
+
+  <body>
+    <div class="overlay hidden">
+      <button class="btn-close" id="btn-close">X</button>
+    </div>
+    <form class="form">
+      <ul class="container">
+        <li>
+          <label for="roll-no">Enter your Roll-No.</label><br />
+          <input
+            type="number"
+            placeholder="Enter u roll.no"
+            id="roll-no"
+            name="roll-no"
+            required
+          />
+        </li>
+        <li>
+          <label for="student-name">Enter your Name.</label><br />
+          <input
+            type="text"
+            placeholder="Enter u name"
+            id="student-name"
+            name="student-name"
+            required
+          />
+        </li>
+        <li>
+          <label for="subject">Enter your course.</label><br />
+          <input
+            type="text"
+            placeholder="Enter u course"
+            id="subject"
+            name="subject"
+            required
+          />
+        </li>
+        <select name="" id="store">
+          <option value="1">localStorage</option>
+          <option value="3">SeasionStorage</option>
+          <option value="2">cookies</option>
+        </select>
+        <li class="button">
+          <button class="btn" >Submit</button>
+          <button class="submit-btn hide">Submit</button>
+        </li>
+      </ul>
+    </form>
+    <div class="main">
+      <div class="txt-container">
+        <div class="all-txt">
+          <!-- <div class="box">
+            <p class="txt-roll">20</p>
+            <p class="txt-name">vdsfkjfdsaklfja</p>
+            <p class="txt-subject">math</p>
+            <p class="txt-storage">localStorage</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
